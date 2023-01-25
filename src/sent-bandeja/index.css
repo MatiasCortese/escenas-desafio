@@ -1,0 +1,78 @@
+/* Content Bandejas style */
+.content-bandejas-sent {
+    padding: 25px 20px;
+    height: 84vh;
+    width: 100%;
+    background-color: #FF9BB3;
+    display: flex;
+}
+
+@media (min-width: 960px) {
+    .content-bandejas-sent {
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+.content-bandejas__sent-stateOne {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+.content-bandejas__sent-email {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    justify-content: space-between;
+    padding: 13px 20px;
+    background-color: white;
+}
+
+.content-bandejas__sent-email:hover {
+    cursor: pointer;
+}
+
+.content-bandejas__sent-stateOne {
+    display: flex;
+}
+
+@media (min-width: 960px) {
+    .content-bandejas {
+        width: 72%;
+    }
+}
+
+/* Inbox and sent stateTWo */
+
+.content-bandejas__subtitle {
+    font-size: 40px;
+    padding-bottom: 26px;
+}
+
+.email-text {
+    font-size: 30px;
+}
+
+
+
+ul {
+    padding: 0;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.sent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-interno {
+    text-decoration: none;
+}

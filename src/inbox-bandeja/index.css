@@ -1,0 +1,75 @@
+.content-bandejas-inbox {
+    background-color: #FFF59B;
+    padding: 25px 20px;
+    height: 85vh;
+    width: 100%;
+}
+
+@media (min-width: 960px) {
+    .content-bandejas-inbox {
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+.content-bandejas__inbox-stateOne {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.content-bandejas__inbox-email {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    height: 73px;
+    justify-content: space-between;
+    padding: 13px 20px;
+    background-color: white;
+}
+
+.content-bandejas__inbox-email:hover {
+    cursor: pointer;
+}
+
+.content-bandejas__title {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+@media (min-width: 960px) {
+    .content-bandejas__title {
+        font-size: 60px;
+        padding-bottom: 16px;
+    }
+}
+
+.email-title {
+    font-size: 24px;
+}
+
+.email-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    background-image: url('../../images/Polygon\ 1.png');
+    background-repeat: no-repeat;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.inbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-interno {
+    text-decoration: none;
+}

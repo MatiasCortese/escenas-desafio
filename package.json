@@ -14,7 +14,7 @@
     "parcel": "^2.8.2",
     "shx": "^0.3.2"
   },
-  "main": ".src/index.html",
+  "main": ".src/index.js",
   "repository": "git@github.com:MatiasCortese/escenas-desafio.git",
   "author": "Matias Cortese <matiasemanuelcortese@gmail.com>"
 }
